@@ -78,81 +78,167 @@ Sorcerer's Workshop,Other,Disneyland - Anaheim,California Adventure,0,0
 Toy Story Midway Mania,Ride,Disneyland - Anaheim,California Adventure,0,0
 Turtle Talk with Crush,Other,Disneyland - Anaheim,California Adventure,0,0
 WEB SLINGERS: A Spider-Man Adventure,Ride,Disneyland - Anaheim,California Adventure,0,0
-Astro Orbiter,,Disney World,Magic Kingdom,0,
-The Barnstormer,,Disney World,Magic Kingdom,35,
-Big Thunder Mountain Railroad,,Disney World,Magic Kingdom,40,
-Buzz Lightyear's Space Ranger Spin,,Disney World,Magic Kingdom,0,
-Casey Jr. Splash 'N' Soak Station,,Disney World,Magic Kingdom,0,
-Country Bear Jamboree,,Disney World,Magic Kingdom,0,
-Dumbo the Flying Elephant,,Disney World,Magic Kingdom,0,
-Enchanted Tales with Belle,,Disney World,Magic Kingdom,0,
-Frontierland Shootin' Arcade,,Disney World,Magic Kingdom,0,
-The Hall of Presidents,,Disney World,Magic Kingdom,0,
-Haunted Mansion,,Disney World,Magic Kingdom,0,
-it's a small world,,Disney World,Magic Kingdom,0,
-Jungle Cruise,,Disney World,Magic Kingdom,0,
-Liberty Square Riverboat,,Disney World,Magic Kingdom,0,
-Mad Tead Party,,Disney World,Magic Kingdom,0,
-The Magic Carpets of Aladdin,,Disney World,Magic Kingdom,0,
-The Many Adventures of Winnie the Pooh,,Disney World,Magic Kingdom,0,
-Mickey's PhilharMagic,,Disney World,Magic Kingdom,0,
-"Monsters, Inc. Laugh Floor",,Disney World,Magic Kingdom,0,
-Peter Pan's Flight,,Disney World,Magic Kingdom,0,
-A Pirate's Adventure - Treasures of the Seven Seas,,Disney World,Magic Kingdom,0,
-Pirates of the Caribbean,,Disney World,Magic Kingdom,0,
-Prince Charming Regal Carrousel,,Disney World,Magic Kingdom,0,
-Seven Dwarfs Mine Train,,Disney World,Magic Kingdom,38,
-Space Mountain,,Disney World,Magic Kingdom,44,
-Splash Mountain,,Disney World,Magic Kingdom,40,
-Swiss Family Treehouse,,Disney World,Magic Kingdom,0,
-Tomorrowland Speedway,,Disney World,Magic Kingdom,32,
-Tomorrowland Transit Authority PeopleMover,,Disney World,Magic Kingdom,0,
-Tom Sawyer Island,,Disney World,Magic Kingdom,0,
-Under the Sea - Journey of the Little Mermaid,,Disney World,Magic Kingdom,0,
-Walt Disney's Carousel of Progress,,Disney World,Magic Kingdom,0,
-Walt Disney's Enchanted Tiki Room,,Disney World,Magic Kingdom,0,
-Walt Disney World Railroad,,Disney World,Magic Kingdom,0,
-Advanced Training Lab,,Disney World,Epcot,0,
-The American Adventure,,Disney World,Epcot,0,
-Disney & Pixar Short Film Festival,,Disney World,Epcot,0,
-Frozen Ever After,,Disney World,Epcot,0,
-Gran Fiesta Tour Starring The Three Caballeros,,Disney World,Epcot,0,
-Guardians of the Galaxy: Cosmic Rewind,,Disney World,Epcot,42,
-Impressions de France,,Disney World,Epcot,0,
-Journey Into Imagination With Figment,,Disney World,Epcot,0,
-Living with the Land,,Disney World,Epcot,0,
-Mission: SPACE,,Disney World,Epcot,40,
-O Canada!,,Disney World,Epcot,0,
-Reflections of China,,Disney World,Epcot,0,
-Remy's Ratatouille Adventure,,Disney World,Epcot,0,
-The Seas with Nemo & Friends,,Disney World,Epcot,0,
-Soarin' Around The World,,Disney World,Epcot,40,
-Spaceship Earth,,Disney World,Epcot,0,
-Test Track,,Disney World,Epcot,40,
-Turtle Talk with Crush,,Disney World,Epcot,0,
-Alien Swirling Saucers,,Disney World,Hollywood Studios,32,
-Mickey & Minnie's Runaway Railway,,Disney World,Hollywood Studios,0,
-Millennium Falcon: Smugglers Run,,Disney World,Hollywood Studios,38,
-Muppet*Vision 3D,,Disney World,Hollywood Studios,0,
-Rock 'n' Roller Coaster Starring Aerosmith,,Disney World,Hollywood Studios,48,
-Slinky Dog Dash,,Disney World,Hollywood Studios,38,
-Star Tours - The Adventures Continue,,Disney World,Hollywood Studios,40,
-Star Wars: Rise of the Resistance,,Disney World,Hollywood Studios,40,
-Toy Story Mania!,,Disney World,Hollywood Studios,40,
-The Twighlight Zone Tower of Terror,,Disney World,Hollywood Studios,40,
-Affection Section,,Disney World,Animal Kingdom,0,
-Avatar Flight of Passage,,Disney World,Animal Kingdom,44,
-The Boneyard,,Disney World,Animal Kingdom,0,
-Conservation Station,,Disney World,Animal Kingdom,0,
-DINOSAUR,,Disney World,Animal Kingdom,40,
-Discovery Island Trails,,Disney World,Animal Kingdom,0,
-Expedition Everest - Legend of the Forbidden Mountain,,Disney World,Animal Kingdom,44,
-Gorilla Falls Exploration Trail,,Disney World,Animal Kingdom,0,
-It's Tough to be a Bug!,,Disney World,Animal Kingdom,0,
-Kali River Rapids,,Disney World,Animal Kingdom,38,
-Kilimanjaro Safaris,,Disney World,Animal Kingdom,0,
-Maharajah Jungle Trek,,Disney World,Animal Kingdom,0,
-Na'vi River Journey,,Disney World,Animal Kingdom,0,
-Tree of Life,,Disney World,Animal Kingdom,0,
-TriceraTop Spin,,Disney World,Animal Kingdom,0,
-Wildlife Express Train,,Disney World,Animal Kingdom,0,
+Astro Orbiter,,Disney World - Orlando,Magic Kingdom,0,0
+The Barnstormer,,Disney World - Orlando,Magic Kingdom,35,89
+Big Thunder Mountain Railroad,,Disney World - Orlando,Magic Kingdom,40,102
+Buzz Lightyear's Space Ranger Spin,,Disney World - Orlando,Magic Kingdom,0,0
+Casey Jr. Splash 'N' Soak Station,,Disney World - Orlando,Magic Kingdom,0,0
+Country Bear Jamboree,,Disney World - Orlando,Magic Kingdom,0,0
+Dumbo the Flying Elephant,,Disney World - Orlando,Magic Kingdom,0,0
+Enchanted Tales with Belle,,Disney World - Orlando,Magic Kingdom,0,0
+Frontierland Shootin' Arcade,,Disney World - Orlando,Magic Kingdom,0,0
+The Hall of Presidents,,Disney World - Orlando,Magic Kingdom,0,0
+Haunted Mansion,,Disney World - Orlando,Magic Kingdom,0,0
+it's a small world,,Disney World - Orlando,Magic Kingdom,0,0
+Jungle Cruise,,Disney World - Orlando,Magic Kingdom,0,0
+Liberty Square Riverboat,,Disney World - Orlando,Magic Kingdom,0,0
+Mad Tead Party,,Disney World - Orlando,Magic Kingdom,0,0
+The Magic Carpets of Aladdin,,Disney World - Orlando,Magic Kingdom,0,0
+The Many Adventures of Winnie the Pooh,,Disney World - Orlando,Magic Kingdom,0,0
+Mickey's PhilharMagic,,Disney World - Orlando,Magic Kingdom,0,0
+"Monsters, Inc. Laugh Floor",,Disney World - Orlando,Magic Kingdom,0,0
+Peter Pan's Flight,,Disney World - Orlando,Magic Kingdom,0,0
+A Pirate's Adventure - Treasures of the Seven Seas,,Disney World - Orlando,Magic Kingdom,0,0
+Pirates of the Caribbean,,Disney World - Orlando,Magic Kingdom,0,0
+Prince Charming Regal Carrousel,,Disney World - Orlando,Magic Kingdom,0,0
+Seven Dwarfs Mine Train,,Disney World - Orlando,Magic Kingdom,38,97
+Space Mountain,,Disney World - Orlando,Magic Kingdom,44,112
+Splash Mountain,,Disney World - Orlando,Magic Kingdom,40,102
+Swiss Family Treehouse,,Disney World - Orlando,Magic Kingdom,0,0
+Tomorrowland Speedway,,Disney World - Orlando,Magic Kingdom,32,81
+Tomorrowland Transit Authority PeopleMover,,Disney World - Orlando,Magic Kingdom,0,0
+Tom Sawyer Island,,Disney World - Orlando,Magic Kingdom,0,0
+Under the Sea - Journey of the Little Mermaid,,Disney World - Orlando,Magic Kingdom,0,0
+Walt Disney's Carousel of Progress,,Disney World - Orlando,Magic Kingdom,0,0
+Walt Disney's Enchanted Tiki Room,,Disney World - Orlando,Magic Kingdom,0,0
+Walt Disney World Railroad,,Disney World - Orlando,Magic Kingdom,0,0
+Advanced Training Lab,,Disney World - Orlando,Epcot,0,0
+The American Adventure,,Disney World - Orlando,Epcot,0,0
+Disney & Pixar Short Film Festival,,Disney World - Orlando,Epcot,0,0
+Frozen Ever After,,Disney World - Orlando,Epcot,0,0
+Gran Fiesta Tour Starring The Three Caballeros,,Disney World - Orlando,Epcot,0,0
+Guardians of the Galaxy: Cosmic Rewind,,Disney World - Orlando,Epcot,42,107
+Impressions de France,,Disney World - Orlando,Epcot,0,0
+Journey Into Imagination With Figment,,Disney World - Orlando,Epcot,0,0
+Living with the Land,,Disney World - Orlando,Epcot,0,0
+Mission: SPACE,,Disney World - Orlando,Epcot,40,102
+O Canada!,,Disney World - Orlando,Epcot,0,0
+Reflections of China,,Disney World - Orlando,Epcot,0,0
+Remy's Ratatouille Adventure,,Disney World - Orlando,Epcot,0,0
+The Seas with Nemo & Friends,,Disney World - Orlando,Epcot,0,0
+Soarin' Around The World,,Disney World - Orlando,Epcot,40,102
+Spaceship Earth,,Disney World - Orlando,Epcot,0,0
+Test Track,,Disney World - Orlando,Epcot,40,102
+Turtle Talk with Crush,,Disney World - Orlando,Epcot,0,0
+Alien Swirling Saucers,,Disney World - Orlando,Hollywood Studios,32,81
+Mickey & Minnie's Runaway Railway,,Disney World - Orlando,Hollywood Studios,0,0
+Millennium Falcon: Smugglers Run,,Disney World - Orlando,Hollywood Studios,38,97
+Muppet*Vision 3D,,Disney World - Orlando,Hollywood Studios,0,0
+Rock 'n' Roller Coaster Starring Aerosmith,,Disney World - Orlando,Hollywood Studios,48,122
+Slinky Dog Dash,,Disney World - Orlando,Hollywood Studios,38,97
+Star Tours - The Adventures Continue,,Disney World - Orlando,Hollywood Studios,40,102
+Star Wars: Rise of the Resistance,,Disney World - Orlando,Hollywood Studios,40,102
+Toy Story Mania!,,Disney World - Orlando,Hollywood Studios,40,102
+The Twighlight Zone Tower of Terror,,Disney World - Orlando,Hollywood Studios,40,102
+Affection Section,,Disney World - Orlando,Animal Kingdom,0,0
+Avatar Flight of Passage,,Disney World - Orlando,Animal Kingdom,44,112
+The Boneyard,,Disney World - Orlando,Animal Kingdom,0,0
+Conservation Station,,Disney World - Orlando,Animal Kingdom,0,0
+DINOSAUR,,Disney World - Orlando,Animal Kingdom,40,102
+Discovery Island Trails,,Disney World - Orlando,Animal Kingdom,0,0
+Expedition Everest - Legend of the Forbidden Mountain,,Disney World - Orlando,Animal Kingdom,44,112
+Gorilla Falls Exploration Trail,,Disney World - Orlando,Animal Kingdom,0,0
+It's Tough to be a Bug!,,Disney World - Orlando,Animal Kingdom,0,0
+Kali River Rapids,,Disney World - Orlando,Animal Kingdom,38,97
+Kilimanjaro Safaris,,Disney World - Orlando,Animal Kingdom,0,0
+Maharajah Jungle Trek,,Disney World - Orlando,Animal Kingdom,0,0
+Na'vi River Journey,,Disney World - Orlando,Animal Kingdom,0,0
+Tree of Life,,Disney World - Orlando,Animal Kingdom,0,0
+TriceraTop Spin,,Disney World - Orlando,Animal Kingdom,0,0
+Wildlife Express Train,,Disney World - Orlando,Animal Kingdom,0,0
+Gadget's Go Coaster,,Tokyo Disneyland,Disneyland,35,89
+Splash Mountain,,Tokyo Disneyland,Disneyland,35,89
+Big Thunder Mountain,,Tokyo Disneyland,Disneyland,40,102
+Space Mountain,,Tokyo Disneyland,Disneyland,40,102
+Star Tours: The Adventures Continue,,Tokyo Disneyland,Disneyland,40,102
+Happy Ride with Baymax,,Tokyo Disneyland,Disneyland,32,81
+Alice's Tea Party,,Tokyo Disneyland,Disneyland,0,0
+Beaver Brothers Explorer Canoes,,Tokyo Disneyland,Disneyland,0,0
+Buzz Lightyear's Astro Blasters,,Tokyo Disneyland,Disneyland,0,0
+Castle Carrousel,,Tokyo Disneyland,Disneyland,0,0
+Dumbo,,Tokyo Disneyland,Disneyland,0,0
+Enchanted Tale of Beauty and the Beast,,Tokyo Disneyland,Disneyland,0,0
+Haunted Mansion,,Tokyo Disneyland,Disneyland,0,0
+it's a small world,,Tokyo Disneyland,Disneyland,0,0
+Jungle Cruise: Wildlife Expeditions,,Tokyo Disneyland,Disneyland,0,0
+Mark Twain Riverboat,,Tokyo Disneyland,Disneyland,0,0
+Monster's Inc. Ride & Go Seek!,,Tokyo Disneyland,Disneyland,0,0
+Omnibus,,Tokyo Disneyland,Disneyland,0,0
+Penny Arcade,,Tokyo Disneyland,Disneyland,0,0
+Peter Pan's Flight,,Tokyo Disneyland,Disneyland,0,0
+Pinocchio's Daring Journey,,Tokyo Disneyland,Disneyland,0,0
+Pirates of the Caribbean,,Tokyo Disneyland,Disneyland,0,0
+Pooh's Hunny Hunt,,Tokyo Disneyland,Disneyland,0,0
+Roger Rabbit's Car Toon Spin,,Tokyo Disneyland,Disneyland,0,0
+Snow White's Adventures,,Tokyo Disneyland,Disneyland,0,0
+Swiss Family Treehouse,,Tokyo Disneyland,Disneyland,0,0
+"The Enchanted Tiki Room: Stitch Presents ""Aloha E Komo Mai!""",,Tokyo Disneyland,Disneyland,0,0
+Tom Sawyer Island Rafts,,Tokyo Disneyland,Disneyland,0,0
+Toon Park,,Tokyo Disneyland,Disneyland,0,0
+Western River Railroad,,Tokyo Disneyland,Disneyland,0,0
+Big Thunder Mountain,,Disneyland Paris,Disneyland,40,102
+Indiana Jones and the Temple of Peril,,Disneyland Paris,Disneyland,55,140
+Pirates of the Caribbean,,Disneyland Paris,Disneyland,0,0
+Casey Jr. - Le Petit Train du Cirque,,Disneyland Paris,Disneyland,0,0
+Star Wars Hyperspace Mountain,,Disneyland Paris,Disneyland,47,120
+Autopia (w/ Adult),,Disneyland Paris,Disneyland,32,81
+Autopia (Alone),,Disneyland Paris,Disneyland,52,132
+Orbitron - Machines Volantes,,Disneyland Paris,Disneyland,0,0
+Star Tours: The Adventures Continue,,Disneyland Paris,Disneyland,40,102
+Crush's Coaster,,Disneyland Paris,Disneyland,42,107
+Toy Soldiers Parachute Drop,,Disneyland Paris,Disneyland,32,81
+RC Racer,,Disneyland Paris,Disneyland,47,120
+The Twightlight Zone Tower of Terror,,Disneyland Paris,Disneyland,40,102
+Moteurs… Action! Stunt Show Spectacular,,Disneyland Paris,Disneyland,0,0
+Avengers Assemble: Flight Force,,Disneyland Paris,Disneyland,48,122
+Mickey's PhilharMagic,,Disneyland Paris,Disneyland,0,0
+Adventure Isle,,Disneyland Paris,Disneyland,0,0
+Alice's Curious Labyrinth,,Disneyland Paris,Disneyland,0,0
+Animation Academy,,Disneyland Paris,Disneyland,0,0
+Autopia,,Disneyland Paris,Disneyland,32,81
+Blanche-Neige et les Spet Nains,,Disneyland Paris,Disneyland,0,0
+Buzz Lightyear Laser Blast,,Disneyland Paris,Disneyland,0,0
+Cars Quatre Roues Rallye,,Disneyland Paris,Disneyland,0,0
+Cars ROAD TRIP,,Disneyland Paris,Disneyland,0,0
+Discovery Arcade,,Disneyland Paris,Disneyland,0,0
+Disney Studio 1,,Disneyland Paris,Disneyland,0,0
+Disneyland Railroad,,Disneyland Paris,Disneyland,0,0
+Dumbo the Flying Elephant,,,,0,0
+Frontierland Playground,,,,0,0
+Gardens of Wonder,,,,0,0
+Horse-Drawn Streetcars,,,,0,0
+La Galerie de la Belle au Bois Dormant,,,,0,0
+La Taniere du Dragon,,,,0,0
+Le Carrousel de Lancelot,,,,0,0
+Le Passage Enchante d'Aladdin,,,,0,0
+Le Pays des Contes de Fees,,,,0,0
+Les Tapis Volants - Flying Carpets Over Agrabah,,,,0,0
+Les Voyages de Pinocchio,,,,0,0
+Liberty Arcade,,,,0,0
+Mad Hatter's Tea Cups,,,,0,0
+Main Streat Vehicles,,,,0,0
+Orbitron,,,,0,0
+Peter Pan's Flight,,,,0,0
+Phantom Manor,,,,0,0
+Princess Pavilion,,,,0,0
+Ratatouille: The Adventure,,,,0,0
+Restler Roundup Shootin' Gallery,,,,0,0
+Sleeping Beauty Castle,,,,0,0
+Slinky Dog Zigzag Spin,,,,0,0
+Spider-Man W.E.B. Adventure,,,,0,0
+Thunder Mesa Riverboat Landing,,,,0,0
+Welcome to Starport: A Star Wars Encounter,,,,0,0
+La Cabane des Robinson,,,,0,0
+Les Mysteres du Nautilus,,,,0,0
+Pirate Galleon,,,,0,0
+Pirates' Beach,,,,0,0
