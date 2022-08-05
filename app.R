@@ -129,7 +129,17 @@ server <- function(input, output) {
           reactable(
             defaultPageSize = 10,
             columns = list(
+              park = colDef(
+                name = "Park Name"
+              ),
+              type = colDef(
+                name = "Attraction Type"
+              ),
+              attraction = colDef(
+                name = "Attraction Name"
+              ),
               height_in = colDef(
+                name = "Height Requirement (in)",
                 cell = pill_buttons(., color_ref = "height_col", opacity = 0.7)
               ),
               height_col = colDef(show = FALSE)
