@@ -92,14 +92,16 @@ server <- function(input, output) {
           geom_bar(aes(fill = result_u), stat = "identity", position = "stack") +
           geom_label(aes(y = label_y, label = n)) +
           scale_fill_manual(values = c("red", "darkgreen")) +
-          labs(title = paste("Attraction Totals by Park", input$location, sep = " | "),
+          labs(title = paste("Attraction Totals by Park", input$location_u, sep = " | "),
                fill = "") +
           theme_minimal() +
           theme(
             legend.position = "top",
-            legend.justification = "left",
+            legend.justification = "center",
+            plot.title = element_text(hjust = 0.5),
             axis.text.y = element_blank(),
-            axis.title = element_blank()
+            axis.title = element_blank(),
+            axis.text.x = element_text(face = "bold")
           )
     })
 
