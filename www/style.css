@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+h1 {
+  color: #f2f5ff;
+  font-family: 'Lobster', sans-serif;
+}
+
+.control-label {
+  color: #f2f5ff;
+}
+
+.shiny-input-container {
+  color: #f2f5ff;
+}

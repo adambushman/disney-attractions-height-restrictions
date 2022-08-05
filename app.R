@@ -6,6 +6,7 @@
 
 
 library('shiny')
+library('shinyWidgets')
 library('tidyverse')
 library('reactablefmtr')
 
@@ -13,7 +14,17 @@ data <- read.csv('attraction-heights.csv')
 
 # UI Definition
 ui <- fluidPage(
-  h2("Height Restrictions for Disney Park Attractions", align = "center"),
+
+  tags$head(
+    tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+  ),
+
+  setBackgroundImage(
+    src = "https://cdn.wallpapersafari.com/24/87/SQEm9e.jpg"
+  ),
+
+  h1("Height Restrictions for Disney Park Attractions",
+     align = "center"),
   br(),
 
   fluidRow(
@@ -41,7 +52,7 @@ ui <- fluidPage(
                align = "center",
                selectInput("display_u",
                            "Display Attractions",
-                           c("All" = "all", "Too Short" = "red", "Tall Enough" = "darkgreen"))
+                           c("All" = "all", "Too Short" = "#e8b4e9", "Tall Enough" = "#1258d0"))
              ),
              column(
                width = 3,
@@ -52,16 +63,21 @@ ui <- fluidPage(
              )
            ),
 
-           br(),
-
            fluidRow(
+             br(),
+
              column(width = 5,
                     plotOutput("totals")
 
              ),
+
+             br(),
+
              column(width = 7,
                     reactableOutput("attractions")
-             )
+             ),
+
+             br()
            )
     )
   )
@@ -91,14 +107,14 @@ server <- function(input, output) {
           ggplot(aes(park, n)) +
           geom_bar(aes(fill = result_u), stat = "identity", position = "stack") +
           geom_label(aes(y = label_y, label = n)) +
-          scale_fill_manual(values = c("red", "darkgreen")) +
-          labs(title = paste("Attraction Totals by Park", input$location_u, sep = " | "),
+          scale_fill_manual(values = c("#e8b4e9", "#1258d0")) +
+          labs(title = "Attraction Totals by Park",
                fill = "") +
           theme_minimal() +
           theme(
             legend.position = "top",
             legend.justification = "center",
-            plot.title = element_text(hjust = 0.5),
+            plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
             axis.text.y = element_blank(),
             axis.title = element_blank(),
             axis.text.x = element_text(face = "bold")
@@ -109,10 +125,10 @@ server <- function(input, output) {
         data %>%
           filter(location == input$location_u) %>%
           select(park, type, attraction, height_in) %>%
-          mutate(height_col = ifelse(.$height_in <= input$height_u, "darkgreen", "red")) %>%
+          mutate(height_col = ifelse(.$height_in <= input$height_u, "#1258d0", "#e8b4e9")) %>%
           filter(
             if(input$display_u == "all") {
-              height_col %in% c("darkgreen", "red")
+              height_col %in% c("#1258d0", "#e8b4e9")
             }
             else {
               height_col == input$display_u
