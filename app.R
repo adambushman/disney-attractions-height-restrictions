@@ -69,7 +69,7 @@ server <- function(input, output) {
           geom_bar(aes(fill = result_u), stat = "identity", position = "stack") +
           geom_label(aes(y = label_y, label = n)) +
           scale_fill_manual(values = c("red", "darkgreen")) +
-          labs(title = "Attraction Totals by Park",
+          labs(title = paste("Attraction Totals by Park", input$location, sep = " | "),
                fill = "") +
           theme_minimal() +
           theme(
@@ -102,7 +102,7 @@ server <- function(input, output) {
           }
         ) %>%
           reactable(
-            pagination = FALSE,
+            defaultPageSize = 15,
             columns = list(
               height_in = colDef(
                 cell = pill_buttons(., color_ref = "height_col", opacity = 0.7)
