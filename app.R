@@ -11,41 +11,64 @@ library('reactablefmtr')
 
 data <- read.csv('attraction-heights.csv')
 
-# Define UI for application that draws a histogram
+# UI Definition
 ui <- fluidPage(
+  h2("Height Restrictions for Disney Park Attractions", align = "center"),
+  br(),
 
-    # Application title
-    titlePanel("Disney Parks & Attractions"),
+  fluidRow(
+    column(12,
+           fluidRow(
+             column(
+               width = 3,
+               align = "center",
+               selectInput("location_u",
+                           "Amusement Park Location",
+                           unique(data$location))
+             ),
+             column(
+               width = 3,
+               align = "center",
+               numericInput("height_u",
+                            "Child's Height (in)",
+                            value = 40,
+                            min = 25,
+                            max = 60,
+                            step = 1)
+             ),
+             column(
+               width = 3,
+               align = "center",
+               selectInput("display_u",
+                           "Display Attractions",
+                           c("All" = "all", "Too Short" = "red", "Tall Enough" = "darkgreen"))
+             ),
+             column(
+               width = 3,
+               align = "center",
+               selectInput("type_u",
+                           "Attraction Type",
+                           c("All" = "all", unique(data$type)))
+             )
+           ),
 
-    # Sidebar with a slider input for number of bins
-    sidebarLayout(
-        sidebarPanel(
-            selectInput("location_u",
-                        "Amusement Park Location",
-                        unique(data$location)),
-            numericInput("height_u",
-                        "Child's Height (in)",
-                        value = 40,
-                        min = 25,
-                        max = 60,
-                        step = 1),
-            selectInput("display_u",
-                        "Display Attractions",
-                        c("All" = "all", "Too Short" = "red", "Tall Enough" = "darkgreen")),
-            selectInput("type_u",
-                        "Attraction Type",
-                        c("All" = "all", unique(data$type)))
-        ),
+           br(),
 
-        # Show a plot of the generated distribution
-        mainPanel(
-          plotOutput("totals"),
-          reactableOutput("attractions")
-        )
+           fluidRow(
+             column(width = 5,
+                    plotOutput("totals")
+
+             ),
+             column(width = 7,
+                    reactableOutput("attractions")
+             )
+           )
     )
+  )
 )
 
-# Define server logic required to draw a histogram
+
+# Server Logic
 server <- function(input, output) {
 
     output$totals <- renderPlot({
@@ -102,7 +125,7 @@ server <- function(input, output) {
           }
         ) %>%
           reactable(
-            defaultPageSize = 15,
+            defaultPageSize = 10,
             columns = list(
               height_in = colDef(
                 cell = pill_buttons(., color_ref = "height_col", opacity = 0.7)
