@@ -7,6 +7,7 @@
 
 library('shiny')
 library('shinyWidgets')
+library('shinybrowser')
 library('tidyverse')
 library('reactablefmtr')
 
@@ -25,6 +26,7 @@ ui <- fluidPage(
 
   h1("Height Restrictions for Disney Park Attractions",
      align = "center"),
+
   br(),
 
   fluidRow(
@@ -64,8 +66,6 @@ ui <- fluidPage(
            ),
 
            fluidRow(
-             br(),
-
              column(width = 5,
                     plotOutput("totals")
 
@@ -87,6 +87,7 @@ ui <- fluidPage(
 # Server Logic
 server <- function(input, output) {
 
+    # Render the plot
     output$totals <- renderPlot({
       data %>%
         filter(location == input$location_u) %>%
@@ -121,6 +122,8 @@ server <- function(input, output) {
           )
     })
 
+
+    # Render the table
     output$attractions <- renderReactable({
         data %>%
           filter(location == input$location_u) %>%
