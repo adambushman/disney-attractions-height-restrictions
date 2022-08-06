@@ -7,7 +7,6 @@
 
 library('shiny')
 library('shinyWidgets')
-library('shinybrowser')
 library('tidyverse')
 library('reactablefmtr')
 
